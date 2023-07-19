@@ -51,11 +51,19 @@ header {
   padding: 10px;
 }
 
+.portfolio-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
 footer {
   position: fixed;
-  left: -400px;
+  left: -200px;
   bottom: 0;
-  width: 100%;
+  /* social icons / footer interfering with bottom link in portfolio */
+  width: 60%;
   text-align: center;
 }
 
@@ -76,5 +84,9 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+a {
+  display: inline-block;
 }
